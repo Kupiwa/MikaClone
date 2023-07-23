@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,500&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@1,500&family=Poppins:ital,wght@0,500;1,200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins";
+    background-image: url("./images/friends2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: grey;
+    background-blend-mode: multiply;
+}
+
+header {
+    background-color: #ffffff00;
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+li {
+    margin-right: 2rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+}
+
+.nav-links li a:hover {
+    color: #292828;
+}
+
+#logo {
+    border-radius: 50%;
+    width: 70px;
+}
+
+main {
+    color: #fff;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#main {
+    text-align: center;
+    width: 100%;
+}
+
+#main p, .btns {
+    margin-top: 3rem;
+}
+
+#main h1 {
+    font-family: 'Bitter', serif;
+    font-size: 4rem;
+}
+p {
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+#main h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+
+button {
+    border-radius: 20px;
+    padding: 0.6em 2em;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin: 0 1em;
+}
+
+#signup-btn {
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+#login-btn {
+    background-color: yellow;
+    border: 0;
+    color: black;
+}
